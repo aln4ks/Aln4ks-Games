@@ -1,0 +1,384 @@
+@media (min-width: 1440px) and (max-width: 1569.98px){
+    .question {
+        width: 799px;
+    }
+
+    .answer {
+        width: 866px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439.98px){
+
+    .games-container-1 {
+        max-width: 1024px;
+    }
+
+    .mascot {
+        width: 400px;
+        height: 630px;
+        margin: 40px 30px 40px 0;
+    }
+
+    .games-container-2 {
+        max-width: 550px;
+    }
+
+    .games-cards img {
+        width: 250px;
+    }
+
+    .party-packs-container {
+        width: 950px;
+    }
+
+    .party-packs-items {
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .party-packs-items :nth-child(11) {
+        grid-column: 2;
+    }
+
+    .blog-container {
+        width: 950px;
+    }
+
+    .blog-items {
+        gap: 0;
+    }
+    
+    .blog-items img{
+        width: 230px;
+        height: 128px;
+    }
+
+    .friends-container {
+        width: 900px;
+    }
+
+    .question {
+        width: 499px;
+    }
+
+    .answer {
+        width: 566px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px){
+    .header {
+        height: 500px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .navbar img {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .navbar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .neon-section-container {
+        width: 730px;
+    }
+
+    .neon-section img {
+        width: 200px;
+        height: 75px;
+    }
+
+    .neon-section p {
+        font-size: 20px;
+    }
+
+    .games-container-1 {
+        max-width: 730px;
+    }
+
+    .mascot {
+        width: 200px;
+        height: 330px;
+        margin: 200px 30px 40px 0;
+    }
+
+    .games-container-2 {
+        max-width: 550px;
+        margin-bottom: 50px;
+    }
+
+    .games-cards img {
+        width: 230px;
+    }
+
+    .party-packs-container {
+        width: 730px;
+    }
+
+    .party-packs-items {
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 50px;
+    }
+
+    .party-packs-items :nth-child(11) {
+        grid-column: 1;
+    }
+
+    .blog-container {
+        width: 730px;
+    }
+
+    .blog-items {
+        gap: 0;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .blog-items img{
+        width: 350px;
+        height: 195px;
+    }
+
+    .friends-container {
+        width: 730px;
+    }
+
+    .friends-block-2 {
+        width: 350px;
+    }
+    .email-input input {
+        width: 325px;
+    }
+
+    .submit-btn {
+        cursor: pointer;
+        width: 350px;
+    }
+
+    .monkey img{
+        width: 250px;
+        height: 627px;
+    }
+    
+    .question {
+        width: 299px;
+    }
+
+    .answer {
+        width: 366px;
+    }
+
+    .sign-up-input input {
+        width: 325px;
+    }
+
+    .footer-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+
+    .burger-icon {
+        display: block;
+    }
+}
+
+@media (max-width: 767.98px){
+    .header {
+        height: 500px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .navbar img {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .navbar {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .header-container {
+        width: 200px;
+    }
+
+    .pack-6 {
+        width: 160px;
+        height: 143px;
+        margin-left: 0;
+    }
+
+    .sign-up-btn {
+        width: 200px;
+        height: 37px;
+    }
+
+    .links img {
+        width: 20px;
+    }
+
+    .neon-section-container {
+        width: 300px;
+        flex-direction: column;
+    }
+
+    .neon-section img {
+        width: 200px;
+        height: 75px;
+    }
+
+    .neon-section p {
+        font-size: 20px;
+    }
+
+    .games-container-1 {
+        max-width: 300px;
+        flex-direction: column;
+    }
+
+    .mascot {
+        width: 200px;
+        height: 330px;
+        margin: 50px 0 0 50px;
+    }
+
+    .games-container-2 {
+        max-width: 550px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+
+    .games-container-2 h1 {
+        font-size: 36px;
+    }
+    
+    .games-cards img {
+        width: 290px;
+    }
+
+    .games-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .party-packs-container {
+        width: 300px;
+    }
+
+    .party-packs-container h1 {
+        font-size: 36px;
+        padding-top: 50px;
+    }
+    
+    .party-packs-items {
+        display: flex;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 20px;
+        margin-bottom: -20px;
+    }
+
+    .party-pack-item-wrapper {
+        overflow: hidden;
+    }
+
+    .party-packs-items :nth-child(11) {
+        grid-column: 1;
+    }
+
+    .blog-container {
+        width: 300px;
+    }
+
+    .blog-container h1 {
+        font-size: 36px;
+        padding-top: 50px;
+    }
+
+    .blog-items {
+        gap: 0;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .blog-items img{
+        width: 300px;
+        height: 165px;
+    }
+
+    .friends-container {
+        width: 300px;
+        flex-direction: column;
+    }
+    .friends-block-1 {
+        width: 300px;
+    }
+
+    .friends-block-1 h1 {
+        font-size: 36px;
+    }
+
+    .friends-block-1 img {
+        width: 320px;
+        height: 250px;
+    }
+
+    .friends-block-2 {
+        width: 300px;
+    }
+    
+    .email-input input {
+        width: 275px;
+    }
+
+    .submit-btn {
+        width: 300px;
+    }
+
+    .monkey img{
+        display: none;
+    }
+
+    .questions-container {
+        padding: 10px;
+    }
+
+    .question {
+        width: 229px;
+    }
+
+    .answer {
+        width: 296px;
+    }
+
+    .sign-up-input input {
+        width: 275px;
+    }
+
+    .footer-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .burger-icon {
+        display: block;
+    }
+
+    .modal-content h1 {
+        font-size: 36px;
+    }
+}
