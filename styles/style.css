@@ -166,7 +166,7 @@ video {
 }
 
 .games {
-    background-image: url(/images/black-gray.jpg);
+    background-image: url(./images/black-gray.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -223,7 +223,7 @@ video {
 }
 
 .party-packs {
-    background-image: url(/images/paper.jpg);
+    background-image: url(./images/paper.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -275,7 +275,7 @@ video {
 }
 
 .blog {
-    background-image: url(/images/pink.jpg);
+    background-image: url(./images/pink.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
